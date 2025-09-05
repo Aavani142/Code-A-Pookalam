@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pookalam Creator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">The Pookalam Project</div>
+  </header>
+
+  <main class="hero">
+    <div class="hero-content">
+      <h1>
+        The <span class="highlight">Pookalam</span> is  
+        <br /> your <span class="highlight">creation</span>
+      </h1>
+      <p>
+        Celebrate the spirit of Onam by creating your own digital floral design.  
+        Upload a picture and watch it bloom into a beautiful pookalam.
+      </p>
+      <button id="startBtn">Start Creation</button>
+    </div>
+    <div class="hero-image">
+      <img src="images/mahabeli-removebg-preview.png" alt="Pookalam Illustration">
+    </div>
+  </main>
+
+  <section id="uploadSection" class="upload-section">
+    <div class="upload-box">
+      <input type="file" id="upload" accept="image/*" />
+      <div class="canvas-wrapper">
+        <canvas id="pookalam"></canvas>
+        <img src="images/mahabeli-removebg-preview.png" alt="Mahabali">
+      </div>
+      <button id="downloadBtn">Download My Pookalam</button>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
